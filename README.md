@@ -45,6 +45,7 @@
 | 提示词写了十几版都在抽卡 | A/B 实测过的写法：872 字三段式 vs 159 字一段式，胜负和原因都写明 |
 | 片子做完了，不确定能不能发 | `ep-qa` 机器体检：画幅/时长/响度/黑帧/镜头密度，只报可测事实，不判审美 |
 | 收藏夹里 500 个参考，一个都没用上 | 收藏挖掘 + 对标拆解 + 复刻跑通的成套 skills |
+| 每次开会话都要重新解释一遍项目背景 | 一套 Markdown 通用大脑：任何 agent 都能读的记忆结构，人也能读 |
 | 新 AI 工具一个接一个出，不知道跟不跟 | `new-tool-triage` 四选一：只用/扩展/包装/抄，抄必署名，不重复造轮子 |
 
 ## 快速开始
@@ -93,12 +94,21 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 | **调研** | `content-research-board` · `behance-research` · `behance-replicate-run` · `x-bookmarks-mining` · `social-account-diagnosis` · `studio-site-teardown` · `video-prompt-reverse`² | 平台调研 · 对标拆解 · 收藏挖掘 · 账号诊断 · 提示词反推 |
 | **发布** | `behance-case-deck` · `social-media-archive` · `ai-handover-pack` · `library-pull` | 作品集案例页 · 社媒归档 · 知识库交接打包 |
 | **商务** | `b2b-anchor-proposal` | 会议/大会/平台 To B 合作提案 |
-| **工作流** | `frame` · `new-tool-triage` · `obsidian-auto-context` · `obsidian-plan-workflow` · `agent-skills-bridge` · `mcp-server-verify-mount` | 开工收工 · 新工具四选一 · 会话记忆 · skills 桥接 · MCP 验证 |
+| **大脑** | `universal-brain`² · `obsidian-auto-context` · `obsidian-plan-workflow` · `ai-handover-pack` · `library-pull` | Markdown 通用大脑 · 会话自动沉淀 · 计划落库 · 平台交接包 · 云端拉回 |
+| **工作流** | `frame` · `new-tool-triage` · `agent-skills-bridge` · `mcp-server-verify-mount` | 开工收工 · 新工具四选一 · skills 桥接 · MCP 验证 |
 
 > ¹ `drama-claw-hermes` 依赖本地部署的视频管线，属于进阶工位，装不装不影响其他 skill。
-> ² `video-prompt-reverse` 在路线图中，即将上架。
+> ² `universal-brain` 在 v0.5 上架。
 
 完整目录、适用时机和输入示例见 [新手入门](docs/新手入门.md)。
+
+## 你的 Agent 需要一个大脑
+
+这条管线的另一根支柱：**用 Markdown 文件夹当所有 Agent 的记忆**。不装向量数据库、不锁任何平台——Obsidian 能开、git 能管、WorkBuddy / Claude Code / Codex / 豆包 读同一套文件。
+
+三层结构：**入口层**（000- 开头的「现在做什么」页，aliases 用口语词，搜得到点得动）→ **记忆层**（machine 每日日志 / human 人读结论 / global 跨项目铁律，指针化瘦身）→ **链路层**（chains 注册表：口令 → 按序调 skills → 文件交接 → 门控）。
+
+完整方法论 + 实战纪律 + 与 Mem0/Letta 类记忆层的对比 → [docs/通用大脑.md](docs/通用大脑.md)
 
 ## 这条管线验证过什么
 
