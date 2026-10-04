@@ -1,0 +1,33 @@
+{
+  "name": "ops",
+  "displayName": "one-person-studio",
+  "description": "一人动画制片厂：26 个实测沉淀的 Agent Skills，覆盖立项/生产/质检/调研/发布/商务/工作流全管线。",
+  "skills": [
+    "./skills/ops",
+    "./skills/character-ip",
+    "./skills/content-strategy",
+    "./skills/agnes-video-prompt",
+    "./skills/h3-prompt-writing",
+    "./skills/drama-episode-automation",
+    "./skills/design-codex",
+    "./skills/drama-claw-hermes",
+    "./skills/ep-qa",
+    "./skills/content-research-board",
+    "./skills/behance-research",
+    "./skills/behance-replicate-run",
+    "./skills/behance-case-deck",
+    "./skills/x-bookmarks-mining",
+    "./skills/social-account-diagnosis",
+    "./skills/studio-site-teardown",
+    "./skills/social-media-archive",
+    "./skills/ai-handover-pack",
+    "./skills/library-pull",
+    "./skills/b2b-anchor-proposal",
+    "./skills/frame",
+    "./skills/new-tool-triage",
+    "./skills/obsidian-auto-context",
+    "./skills/obsidian-plan-workflow",
+    "./skills/agent-skills-bridge",
+    "./skills/mcp-server-verify-mount"
+  ]
+}
