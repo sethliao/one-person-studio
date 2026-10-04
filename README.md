@@ -46,6 +46,8 @@
 | 片子做完了，不确定能不能发 | `ep-qa` 机器体检：画幅/时长/响度/黑帧/镜头密度，只报可测事实，不判审美 |
 | 收藏夹里 500 个参考，一个都没用上 | 收藏挖掘 + 对标拆解 + 复刻跑通的成套 skills |
 | 每次开会话都要重新解释一遍项目背景 | 一套 Markdown 通用大脑：任何 agent 都能读的记忆结构，人也能读 |
+| 收藏、笔记、工具越堆越多，系统越用越臃肿 | 输入→加工→输出的固定管线：每次加工都产出「能不能跑」的判据，垃圾任务提前死掉 |
+| 状态活在聊天记录里，会话一断就丢 | `frame` 开工/收工两个开关：状态落文件，不靠回忆 |
 | 新 AI 工具一个接一个出，不知道跟不跟 | `new-tool-triage` 四选一：只用/扩展/包装/抄，抄必署名，不重复造轮子 |
 
 ## 快速开始
@@ -103,6 +105,23 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 
 完整目录、适用时机和输入示例见 [新手入门](docs/新手入门.md)。
 
+## 越用越简单，而不是越用越臃肿
+
+多数「第二大脑」的死法：收藏越堆越多、笔记越写越乱，三个月后连主人自己都不打开。这条管线用一个固定的**输入 → 加工 → 输出**回路对抗臃肿：
+
+```text
+输入        加工                        输出
+─────────  ─────────────────────────  ─────────────────────
+X 收藏  →  x-bookmarks-mining 抓取  →   结构化数据集（零 API key，只读）
+平台内容 →  content-research-board    →  可筛选看板
+新工具   →  new-tool-triage 四选一    →  只用 / 扩展 / 包装 / 抄（抄必署名）
+任何灵感 →  「能不能离付钱更近？」门控 →  不过关就死，不进系统
+```
+
+关键不是抓取，是**每一步都有输出物**：数据集、看板、判据。收藏本身不进系统——消化完的判据才进。这就是为什么这条管线跑了一整季还在变简单。
+
+配套的开工/收工（`frame`）是同一哲学：**状态不能活在对话里**。会话会断、会开新的、会并行——断的那一刻，东西就丢了。所以收工时状态落文件，开工时从文件读，一小时、一天、一周都算一个 frame。
+
 ## 你的 Agent 需要一个大脑
 
 这条管线的另一根支柱：**用 Markdown 文件夹当所有 Agent 的记忆**。不装向量数据库、不锁任何平台——Obsidian 能开、git 能管、WorkBuddy / Claude Code / Codex / 豆包 读同一套文件。
@@ -130,7 +149,24 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 ## 作者
 
 **Seth Liao（廖志朋）** · 三维艺术家 / 一人制片厂厂长
+
+> 「一人之编程，夜间执行。」
+
 [GitHub](https://github.com/sethliao) · [B站](https://space.bilibili.com) · 商业合作与授权：[sethliaoartist@gmail.com](mailto:sethliaoartist@gmail.com)
+
+工具地图见 [knowledge/awesome-ai-video.md](knowledge/awesome-ai-video.md)（按工序组织的 AI 视频工具清单，持续更新）。
+
+## 致谢
+
+站在这些肩膀上：
+
+- [PARA](https://fortelabs.com/blog/para/) — Tiago Forte《Building a Second Brain》：目录组织思想的来源
+- [Andrej Karpathy 的 LLM Wiki pattern](https://karpathy.bearblog.dev/)：Markdown 大脑 wiki 化的启发
+- [dbskill](https://github.com/dontbesilent2025/dbskill) — skills 工具箱组织范式的先行者（16,152 条推文 → 4,176 知识原子 → 33 skills），本仓库的 README 结构深受其启发
+- [second-brain-os](https://github.com/undefined-ui/second-brain-os) · [second-brain](https://github.com/NicholasSpisak/second-brain) — 同路的 Markdown 大脑实践者
+- [awesome 生态](https://github.com/sindresorhus/awesome) — 资源清单形式的来源
+
+本项目内容为独立实测沉淀，未复制上述项目的内容；结构与范式致敬，版权归原作者。
 
 ## 许可证
 
