@@ -43,6 +43,7 @@ description: 一人制片厂总入口。想用 AI 做动画/系列视频但不�
 | 「我要写一份合作提案」 | 商务 | `b2b-anchor-proposal` |
 | 「今天开工 / 今天收工」 | 工作流 | `frame` |
 | 「我捡到一个新工具，要不要投入」 | 工作流 | `new-tool-triage` |
+| 「我想给 agent 建长期记忆 / 搭知识库 / 别再重新解释背景」 | 大脑 | `universal-brain` |
 | 「Obsidian 库乱了 / 跨会话接不上」 | 工作流 | `obsidian-auto-context`、`obsidian-plan-workflow` |
 | 「skill 装了但 agent 读不到」 | 工作流 | `agent-skills-bridge` |
 | 「MCP 配好了能不能用」 | 工作流 | `mcp-server-verify-mount` |
