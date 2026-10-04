@@ -1,0 +1,55 @@
+{
+  "pack": "小厚先生 · 扣子视频生产",
+  "ip": "小厚先生",
+  "platform": "扣子 / Coze",
+  "out": "~/Documents/ai-handover/xiaohou-coze",
+  "docs": [
+    {
+      "src": "~/.workbuddy/skills/ai-handover-pack/assets/00-系统提示词.md",
+      "as": "00-系统提示词.md",
+      "clean": true,
+      "split": false
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/角色档案.md",
+      "as": "01-知识库/01-角色圣经.md"
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/角色一致性描述.md",
+      "as": "01-知识库/02-角色一致性描述.md"
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/内容策略.md",
+      "as": "01-知识库/03-内容策略.md"
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/IP运营.md",
+      "as": "01-知识库/04-IP运营矩阵.md"
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/001-Projects/小厚先生/小厚先生.md",
+      "as": "01-知识库/05-项目现状.md"
+    },
+    {
+      "src": "~/Documents/hermes_vault_clean/001-Projects/小厚先生/GFlow-Workflow.md",
+      "as": "01-知识库/06-生成管线约定.md"
+    },
+    {
+      "src": "~/.workbuddy/skills/ai-handover-pack/assets/02-工作流蓝图.md",
+      "as": "02-工作流蓝图.md",
+      "clean": false,
+      "split": false
+    },
+    {
+      "src": "~/.workbuddy/skills/ai-handover-pack/assets/03-交接回执模板.md",
+      "as": "03-交接回执模板.md",
+      "clean": false,
+      "split": false
+    }
+  ],
+  "descriptions": {
+    "00-系统提示词.md": "**粘进扣子「人设与回复逻辑」框**——决定它是谁、守什么规矩、按什么格式产出",
+    "02-工作流蓝图.md": "扣子工作流的节点图 + 模型选型 + 交付检查清单",
+    "03-交接回执模板.md": "外部 AI 干完活后回填这个，WorkBuddy 才能直接落库"
+  }
+}
