@@ -4,6 +4,7 @@
   "description": "一人动画制片厂：26 个实测沉淀的 Agent Skills，覆盖立项/生产/质检/调研/发布/商务/工作流全管线。",
   "skills": [
     "./skills/ops",
+    "./skills/universal-brain",
     "./skills/character-ip",
     "./skills/content-strategy",
     "./skills/agnes-video-prompt",

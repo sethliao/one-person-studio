@@ -64,6 +64,7 @@
 /ops-agnes-video-prompt 帮我写一个锁定角色一致性的长提示词
 /ops-ep-qa 体检一下这三条成片，画幅一致吗、有黑帧吗、有静音段吗
 /ops-character-ip 给我的角色建一套档案：参考图、三视图、一致性规则
+/ops-universal-brain 把我的笔记文件夹变成所有 agent 都能读的大脑
 /ops-new-tool-triage 我看到一个新的 AI 视频工具，帮我判断要不要投入
 ```
 
@@ -98,7 +99,7 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 | **工作流** | `frame` · `new-tool-triage` · `agent-skills-bridge` · `mcp-server-verify-mount` | 开工收工 · 新工具四选一 · skills 桥接 · MCP 验证 |
 
 > ¹ `drama-claw-hermes` 依赖本地部署的视频管线，属于进阶工位，装不装不影响其他 skill。
-> ² `universal-brain` 在 v0.5 上架。
+> ² 
 
 完整目录、适用时机和输入示例见 [新手入门](docs/新手入门.md)。
 

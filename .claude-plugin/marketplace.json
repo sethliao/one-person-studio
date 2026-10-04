@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "一人动画制片厂 — 一个人 + AI 做出整季动画的实测管线，26 个 Skills",
-    "version": "0.2.0"
+    "version": "0.5.0"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "description": "一人动画制片厂完整工具箱。/ops 按制片环节路由：立项、生产、质检、调研、发布、商务、工作流。",
       "source": "./",
       "strict": true,
-      "version": "0.2.0",
+      "version": "0.5.0",
       "category": "content-production",
       "keywords": ["animation", "video", "pipeline", "skills", "chinese"]
     }
