@@ -2,7 +2,7 @@
 
 # one-person-studio
 
-**A one-person animation studio: the battle-tested pipeline of making a full animation series alone with AI agents, distilled into 26 installable Agent Skills**
+**A one-person animation studio: the battle-tested pipeline of making a full animation series alone with AI agents, distilled into 27 installable Agent Skills**
 
 *3 original IPs · 5 episodes shipped · 30+ field-tested rules*
 
@@ -16,7 +16,7 @@
 
 This is not a tutorial collection. It is a **production pipeline that actually ran and is still running**.
 
-One person + AI agents: 3 original animation IPs, 5 finished episodes, no human crew. Every pitfall along the way — how long a prompt should be, what the silence-detection threshold should be, which jobs belong to a video model and which never do — has been distilled into 26 skills.
+One person + AI agents: 3 original animation IPs, 5 finished episodes, no human crew. Every pitfall along the way — how long a prompt should be, what the silence-detection threshold should be, which jobs belong to a video model and which never do — has been distilled into 27 skills.
 
 It grew out of field-tested rules like these:
 
@@ -83,6 +83,16 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 | Workflow | `frame` · `new-tool-triage` · `obsidian-auto-context` · `obsidian-plan-workflow` · `agent-skills-bridge` · `mcp-server-verify-mount` | Start/end-of-day · tool triage · session memory · skills bridging · MCP verify |
 
 Full catalog with examples: [新手入门 (Chinese)](docs/新手入门.md) · Field rules: [实测判据 (Chinese)](knowledge/实测判据.md)
+
+## Your agent needs a brain
+
+The second pillar of this pipeline: **a plain Markdown folder as the memory of every agent**. No vector database, no platform lock-in — Obsidian opens it, git tracks it, WorkBuddy / Claude Code / Codex / Doubao all read the same files.
+
+Three layers: an **entry layer** (one `000-` page answering "what now", with colloquial aliases), a **memory layer** (machine daily logs / human conclusions / global rules, pointer-thin), and a **chain layer** (a registry wiring skills into pipelines: passphrase → ordered calls → file handoff → gates).
+
+Methodology and field rules: [docs/通用大脑.md (Chinese)](docs/通用大脑.md)
+
+![Markdown universal brain · three-layer architecture](docs/brain.svg)
 
 ## Author
 

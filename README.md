@@ -4,13 +4,13 @@
 
 简体中文 | [English](README.en.md)
 
-**一人动画制片厂：把「一个人 + AI 做出整季动画」的实战管线，沉淀成 26 个可直接调用的 Agent Skills**
+**一人动画制片厂：把「一个人 + AI 做出整季动画」的实战管线，沉淀成 27 个可直接调用的 Agent Skills**
 
 *3 个原创 IP · 5 集成片 · 30+ 条实测判据 · 0 帧抽卡玄学*
 
 [![Version](https://img.shields.io/badge/version-0.2.0-2563EB.svg?style=flat-square)](VERSION)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-26-8B5CF6.svg?style=flat-square)](skills/)
+[![Skills](https://img.shields.io/badge/skills-27-8B5CF6.svg?style=flat-square)](skills/)
 
 **支持：WorkBuddy、Claude Code、豆包、Codex，以及其他支持 Skills 的 Agent。**
 
@@ -24,7 +24,7 @@
 
 这不是教程合集，而是一条**真实跑过、还在跑**的动画生产管线。
 
-一个人 + AI Agent 协作：3 个原创 IP，5 集动画成片，从 idea 到成片到发布全流程没有第二个「人类员工」。生产中踩过的每一个坑——提示词写多长效果最好、静音判定阈值该设多少、哪些活该交给视频模型哪些打死不能交——都被沉淀成了 26 个 skill。
+一个人 + AI Agent 协作：3 个原创 IP，5 集动画成片，从 idea 到成片到发布全流程没有第二个「人类员工」。生产中踩过的每一个坑——提示词写多长效果最好、静音判定阈值该设多少、哪些活该交给视频模型哪些打死不能交——都被沉淀成了 27 个 skill。
 
 **它的前身是一条条的实测记录：**
 
@@ -110,6 +110,8 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 三层结构：**入口层**（000- 开头的「现在做什么」页，aliases 用口语词，搜得到点得动）→ **记忆层**（machine 每日日志 / human 人读结论 / global 跨项目铁律，指针化瘦身）→ **链路层**（chains 注册表：口令 → 按序调 skills → 文件交接 → 门控）。
 
 完整方法论 + 实战纪律 + 与 Mem0/Letta 类记忆层的对比 → [docs/通用大脑.md](docs/通用大脑.md)
+
+![Markdown 通用大脑 · 三层架构](docs/brain.svg)
 
 ## 这条管线验证过什么
 

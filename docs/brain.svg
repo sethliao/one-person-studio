@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <rect width="1200" height="640" fill="#FAFBFC"/>
+  <text x="600" y="52" text-anchor="middle" font-size="26" font-weight="700" fill="#1F2937">Markdown 通用大脑 · 三层架构</text>
+  <text x="600" y="80" text-anchor="middle" font-size="14" fill="#6B7280">不装数据库、不锁平台：Obsidian 能开、git 能管、任何 Agent 都能读</text>
+
+  <!-- 输入列 -->
+  <g font-size="13" font-weight="600">
+    <rect x="40" y="130" width="160" height="52" rx="9" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.5"/>
+    <text x="120" y="162" text-anchor="middle" fill="#4338CA">会话收工</text>
+    <rect x="40" y="210" width="160" height="52" rx="9" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+    <text x="120" y="242" text-anchor="middle" fill="#047857">收藏 / 调研</text>
+    <rect x="40" y="290" width="160" height="52" rx="9" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="120" y="322" text-anchor="middle" fill="#B45309">项目日常</text>
+  </g>
+  <text x="120" y="380" text-anchor="middle" font-size="12" fill="#9CA3AF">每天发生的事</text>
+  <g stroke="#9CA3AF" stroke-width="2" fill="#9CA3AF">
+    <line x1="200" y1="230" x2="284" y2="230"/><polygon points="284,225 292,230 284,235"/>
+  </g>
+
+  <!-- 大脑主体 -->
+  <rect x="300" y="112" width="440" height="440" rx="16" fill="#FFFFFF" stroke="#1F2937" stroke-width="2"/>
+  <text x="520" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">一个 Markdown 文件夹</text>
+
+  <!-- 层1 入口 -->
+  <rect x="322" y="160" width="396" height="98" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="340" y="186" font-size="14" font-weight="700" fill="#1D4ED8">① 入口层 · 000-现在做什么</text>
+  <text x="340" y="210" font-size="12.5" fill="#374151">全库唯一入口：现在做哪件 / 到哪了 / 去哪找</text>
+  <text x="340" y="232" font-size="12.5" fill="#374151">aliases 用口语词 —— 你叫「验收包」就搜「验收包」</text>
+
+  <!-- 层2 记忆 -->
+  <rect x="322" y="272" width="396" height="128" rx="10" fill="#FDF2F8" stroke="#EC4899" stroke-width="1.5"/>
+  <text x="340" y="298" font-size="14" font-weight="700" fill="#BE185D">② 记忆层 · 三层分存</text>
+  <text x="340" y="322" font-size="12.5" fill="#374151">machine/  每日工作日志 · append-only</text>
+  <text x="340" y="344" font-size="12.5" fill="#374151">human/    人读结论与决策 · 一条决策一页</text>
+  <text x="340" y="366" font-size="12.5" fill="#374151">global/   跨项目铁律 · 指针化 ≤3KB</text>
+  <text x="340" y="388" font-size="12" fill="#9CA3AF">同一事实只有一个真源；只增量，不重写</text>
+
+  <!-- 层3 链路 -->
+  <rect x="322" y="414" width="396" height="112" rx="10" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="340" y="440" font-size="14" font-weight="700" fill="#374151">③ 链路层 · chains/REGISTRY</text>
+  <text x="340" y="464" font-size="12.5" fill="#374151">链 = skills 的使用单位</text>
+  <text x="340" y="486" font-size="12.5" fill="#374151">口令 → 按序调用 → 文件交接 → 门控</text>
+  <text x="340" y="508" font-size="12" fill="#9CA3AF">跨会话靠文件交接，不靠聊天记录</text>
+
+  <!-- 输出列 -->
+  <g stroke="#9CA3AF" stroke-width="2" fill="#9CA3AF">
+    <line x1="740" y1="230" x2="824" y2="230"/><polygon points="824,225 832,230 824,235"/>
+  </g>
+  <g font-size="13" font-weight="600">
+    <rect x="840" y="130" width="170" height="52" rx="9" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="925" y="152" text-anchor="middle" fill="#1D4ED8">任何 Agent 直接读</text>
+    <text x="925" y="172" text-anchor="middle" font-size="10.5" font-weight="400" fill="#6B7280">WorkBuddy / Claude / 豆包 …</text>
+    <rect x="840" y="210" width="170" height="52" rx="9" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="925" y="232" text-anchor="middle" fill="#1D4ED8">Obsidian / VS Code</text>
+    <text x="925" y="252" text-anchor="middle" font-size="11" font-weight="400" fill="#6B7280">人随时打开看、随手改</text>
+    <rect x="840" y="290" width="170" height="52" rx="9" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="925" y="312" text-anchor="middle" fill="#1D4ED8">交接包导出</text>
+    <text x="925" y="332" text-anchor="middle" font-size="11" font-weight="400" fill="#6B7280">Coze / Kimi / GPTs 也能喂</text>
+  </g>
+  <text x="925" y="380" text-anchor="middle" font-size="12" fill="#9CA3AF">读同一套文件</text>
+
+  <!-- 底部对比条 -->
+  <rect x="60" y="560" width="1080" height="56" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="600" y="583" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1F2937">vs 向量记忆层（Mem0 / Letta / Zep）：它们强在检索，Markdown 大脑强在可维护、可迁移、你的磁盘你做主</text>
+  <text x="600" y="605" text-anchor="middle" font-size="12" fill="#6B7280">需要强检索时，Markdown 文件夹照样可以喂给任何 RAG —— 每一条都是干净语料</text>
+</svg>
