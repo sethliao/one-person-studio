@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <rect width="1200" height="640" fill="#FAFBFC"/>
+  <text x="600" y="52" text-anchor="middle" font-size="26" font-weight="700" fill="#1F2937">一人动画制片厂 · 管线全景</text>
+  <text x="600" y="80" text-anchor="middle" font-size="14" fill="#6B7280">一个人 + AI Agent：从 idea 到成片到复盘，每个工位一个 skill</text>
+
+  <!-- 工位链 -->
+  <g font-size="15" font-weight="600">
+    <rect x="30"  y="120" width="170" height="56" rx="10" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.5"/>
+    <text x="115" y="154" text-anchor="middle" fill="#4338CA">① idea / 立项</text>
+    <rect x="230" y="120" width="170" height="56" rx="10" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+    <text x="315" y="154" text-anchor="middle" fill="#047857">② 生产</text>
+    <rect x="430" y="120" width="170" height="56" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="515" y="154" text-anchor="middle" fill="#B45309">③ 质检</text>
+    <rect x="630" y="120" width="170" height="56" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="715" y="154" text-anchor="middle" fill="#1D4ED8">④ 调研 / 对标</text>
+    <rect x="830" y="120" width="170" height="56" rx="10" fill="#FDF2F8" stroke="#EC4899" stroke-width="1.5"/>
+    <text x="915" y="154" text-anchor="middle" fill="#BE185D">⑤ 发布</text>
+    <rect x="1030" y="120" width="140" height="56" rx="10" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.5"/>
+    <text x="1100" y="154" text-anchor="middle" fill="#374151">⑥ 复盘</text>
+  </g>
+  <g stroke="#9CA3AF" stroke-width="2" fill="#9CA3AF">
+    <line x1="200" y1="148" x2="224" y2="148"/><polygon points="224,143 232,148 224,153"/>
+    <line x1="400" y1="148" x2="424" y2="148"/><polygon points="424,143 432,148 424,153"/>
+    <line x1="600" y1="148" x2="624" y2="148"/><polygon points="624,143 632,148 624,153"/>
+    <line x1="800" y1="148" x2="824" y2="148"/><polygon points="824,143 832,148 824,153"/>
+    <line x1="1000" y1="148" x2="1024" y2="148"/><polygon points="1024,143 1032,148 1024,153"/>
+  </g>
+
+  <!-- 各工位 skills -->
+  <g font-size="13" font-weight="500">
+    <rect x="30" y="200" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="45" y="226" fill="#4338CA">character-ip</text>
+    <text x="45" y="250" fill="#4338CA">content-strategy</text>
+    <text x="45" y="274" fill="#9CA3AF" font-size="12">角色档案 / 三视图</text>
+    <text x="45" y="294" fill="#9CA3AF" font-size="12">选题 / 栏目设计</text>
+
+    <rect x="230" y="200" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="245" y="226" fill="#047857">agnes-video-prompt</text>
+    <text x="245" y="250" fill="#047857">h3-prompt-writing</text>
+    <text x="245" y="270" fill="#047857" font-size="12">drama-episode-automation</text>
+    <text x="245" y="298" fill="#047857">design-codex</text>
+
+    <rect x="430" y="200" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="445" y="226" fill="#B45309">ep-qa</text>
+    <text x="445" y="250" fill="#9CA3AF" font-size="12">画幅 / 响度 / 黑帧</text>
+    <text x="445" y="270" fill="#9CA3AF" font-size="12">镜头密度 / 一致性</text>
+    <text x="445" y="296" fill="#B45309" font-size="12" font-weight="600">只报可测事实</text>
+
+    <rect x="630" y="200" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="645" y="226" fill="#1D4ED8" font-size="12">content-research-board</text>
+    <text x="645" y="250" fill="#1D4ED8">behance-research</text>
+    <text x="645" y="274" fill="#1D4ED8">x-bookmarks-mining</text>
+    <text x="645" y="298" fill="#1D4ED8">new-tool-triage</text>
+
+    <rect x="830" y="200" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="845" y="226" fill="#BE185D">behance-case-deck</text>
+    <text x="845" y="250" fill="#BE185D">social-media-archive</text>
+    <text x="845" y="274" fill="#BE185D">b2b-anchor-proposal</text>
+    <text x="845" y="298" fill="#BE185D">ai-handover-pack</text>
+
+    <rect x="1030" y="200" width="140" height="120" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="1045" y="226" fill="#374151">frame</text>
+    <text x="1045" y="250" fill="#374151">social-account-</text>
+    <text x="1045" y="270" fill="#374151">diagnosis</text>
+    <text x="1045" y="296" fill="#9CA3AF" font-size="12">开工 / 收工 / 诊断</text>
+  </g>
+
+  <!-- 底部：总入口 -->
+  <rect x="230" y="360" width="740" height="72" rx="12" fill="#1F2937"/>
+  <text x="600" y="390" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">/ops —— 制片主任</text>
+  <text x="600" y="416" text-anchor="middle" font-size="13" fill="#D1D5DB">听你说处境 → 判断工位 → 派给对的 skill → 给你下一段可发送的提示词</text>
+
+  <!-- 底部：实测层 -->
+  <rect x="230" y="480" width="740" height="110" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="600" y="512" text-anchor="middle" font-size="15" font-weight="700" fill="#1F2937">knowledge/实测判据 —— 30+ 条真跑出来的定论</text>
+  <text x="600" y="540" text-anchor="middle" font-size="13" fill="#6B7280">872 字长提示词 A/B 胜出 · 软锚定 PSNR +6.4dB · 静音阈值 −50dB 实测标定</text>
+  <text x="600" y="562" text-anchor="middle" font-size="13" fill="#6B7280">节奏在剪辑不在模型（观感 ×1.4 零成本） · 图表别给视频模型</text>
+  <text x="600" y="584" text-anchor="middle" font-size="12" fill="#9CA3AF">每一条都来自真跑过的片，不是查来的说法</text>
+</svg>

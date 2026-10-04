@@ -2,6 +2,8 @@
 
 # one-person-studio
 
+简体中文 | [English](README.en.md)
+
 **一人动画制片厂：把「一个人 + AI 做出整季动画」的实战管线，沉淀成 26 个可直接调用的 Agent Skills**
 
 *3 个原创 IP · 5 集成片 · 30+ 条实测判据 · 0 帧抽卡玄学*
@@ -110,14 +112,7 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
 
 ## 管线全景
 
-```text
- idea ──▶ 立项 ──▶ 生产 ──▶ 质检 ──▶ 发布 ──▶ 复盘
-           │        │        │        │        │
-      character-ip agnes/h3   ep-qa   behance   frame
-      content-     drama-            case-deck social-account-
-      strategy     episode-                    diagnosis
-                   automation
-```
+![一人动画制片厂 · 管线全景](docs/pipeline.svg)
 
 ## 作者
 
