@@ -120,7 +120,7 @@ curl -s http://127.0.0.1:8790/v1/videos/glabs-xxxx
 **复用脚本 —— spec 驱动三件套**（在 vault `003-Workbench/_build/`，2026-09-19 重构，出图/出片/合成全 spec 化）：
 ```bash
 P=~/.workbuddy/binaries/python/versions/3.13.12/bin/python3
-cd ~/Documents/hermes_vault_clean/003-Workbench/_build
+cd $VAULT_PATH/003-Workbench/_build
 $P gen_frames.py specs/<x>.json     # 出图（支持 refs → 图生图）
 $P gen_clips.py  specs/<x>.json     # 出片（支持 per-clip duration / 额外 refs）
 $P assemble_reel.py specs/<x>.json  # 合成（xstack 式 xfade 链 + 免费 drone + loudnorm）

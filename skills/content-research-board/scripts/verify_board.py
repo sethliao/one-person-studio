@@ -23,7 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 DEFAULT_BOARDS = [
     os.path.join(HERE, "collections-board.html"),
-    "~/Documents/hermes_vault_clean/003-Workbench/collections-ledger/collections-board.html",
+    "$VAULT_PATH/003-Workbench/collections-ledger/collections-board.html",
 ]
 SRC = os.path.join(HERE, "data", "collect", "analysis.json")
 

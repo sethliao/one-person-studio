@@ -69,6 +69,25 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
   && rm -rf /tmp/ops-studio
 ```
 
+## 🔧 Point it at your vault (`VAULT_PATH`)
+
+These skills were written against the author's Obsidian vault. Anything that reads **files inside the vault**
+uses the placeholder **`$VAULT_PATH`** — point it at your own vault:
+
+```bash
+# Option 1: export an env var (recommended — scripts expand it automatically)
+export VAULT_PATH="$HOME/Documents/your-vault"
+
+# Option 2: replace it globally after install (if you don't set the env var)
+grep -rl '$VAULT_PATH' ~/.claude/skills/ | xargs sed -i '' "s|\$VAULT_PATH|$HOME/Documents/your-vault|g"
+```
+
+**Skills that need it**: `agnes-video-prompt` · `x-bookmarks-mining` · `design-codex` · `behance-case-deck` ·
+`ep-qa` · `drama-claw-hermes` · `social-media-archive` · `new-tool-triage` · `ai-handover-pack` ·
+`content-research-board` · `agent-skills-bridge`.
+
+Everything else works without it — vault-dependent skills simply skip or warn when the path is missing.
+
 ## Skill map
 
 | Workstation | Skills | What they do |

@@ -26,6 +26,7 @@ frontmatter。这些语法到了扣子 / Kimi / 豆包 / GPTs 那边全是**死�
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import re
 import shutil
@@ -222,7 +223,7 @@ def do_pack(args) -> int:
     total_chars = 0
 
     for doc in cfg["docs"]:
-        src = Path(doc["src"]).expanduser()
+        src = Path(os.path.expandvars(doc["src"])).expanduser()  # 支持 $VAULT_PATH 占位符
         if not src.is_absolute():
             src = (cfg_path.parent / src).resolve()
         if not src.exists():

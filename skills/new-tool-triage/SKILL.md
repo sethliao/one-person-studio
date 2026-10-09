@@ -6,7 +6,7 @@ agent_created: true
 
 # 新工具处置（triage）
 
-**协议全文（人读 + 可引用）：`~/Documents/hermes_vault_clean/System/新工具处置协议.md`**
+**协议全文（人读 + 可引用）：`$VAULT_PATH/System/新工具处置协议.md`**
 下面只是我在会话里执行的那部分。
 
 ## 🚨 第 0 步（2026-09-24 Seth 批的，最重要）：先查库，不要造轮子
@@ -19,7 +19,7 @@ agent_created: true
 动手前必搜这四处：
 
 ```bash
-cd ~/Documents/hermes_vault_clean/003-Workbench/data/collect
+cd $VAULT_PATH/003-Workbench/data/collect
 # 1681 条九平台收藏（已分 14 主题，含「工具·工作流·自动化」276 条）—— 用已装的 jq，别写脚本
 jq -r '.items[] | select(.title|test("<关键词>";"i")) | "\(.platform)\t\(.title[0:60])\n   \(.url)"' analysis.json
 ```

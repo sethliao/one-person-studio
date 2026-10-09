@@ -30,7 +30,7 @@ import argparse, json, os, shutil, subprocess, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__))
 PY = sys.executable
 
-VAULT_DEFAULT = "~/Documents/hermes_vault_clean"
+VAULT_DEFAULT = "$VAULT_PATH"
 ROOT_REL = os.path.join(HERE, "..")           # 若脚本被复制进 vault，这条会指向 vault
 
 # 这些是「生成物」，可以被覆盖

@@ -49,7 +49,7 @@ agent_created: true
 ### 第 2 步 · 渲染看板
 ```bash
 P=~/.workbuddy/binaries/python/envs/default/bin/python
-cd ~/Documents/hermes_vault_clean/003-Workbench/_build
+cd $VAULT_PATH/003-Workbench/_build
 $P build_momo_case.py [slug...]     # 不带参数 = 全出；带参数 = 只出匹配的
 $P build_momo_case_page.py          # 出案例页 HTML（两处落地）
 ```

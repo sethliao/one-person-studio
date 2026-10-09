@@ -101,7 +101,7 @@ ffmpeg -f lavfi -i color=c=black:s=1280x720:d=2:r=24 -i in.mp4 \
 ## 出图后过闸门
 
 ```bash
-$P ~/Documents/hermes_vault_clean/003-Workbench/_build/design_audit.py report.html
+$P $VAULT_PATH/003-Workbench/_build/design_audit.py report.html
 ```
 ⚠️ T2 指纹（中间点拼元信息串）**不认内容文本** —— 分组名里用`·` 会被误报。
 用 `｜` 或 `／`。**不要为了过闸门去改闸门**，改内容源头。

@@ -16,8 +16,8 @@ agent_created: true
 ## 第 0 步：先查库，别重抓
 
 ```bash
-fd . ~/Documents/hermes_vault_clean/Assets/Seth-社媒档案
-rg -l "<短码或关键词>" ~/Documents/hermes_vault_clean
+fd . $VAULT_PATH/Assets/Seth-社媒档案
+rg -l "<短码或关键词>" $VAULT_PATH
 ```
 
 已在 `Wiki/Seth-账号矩阵.md` / `Seth-跨平台账号诊断-2026-09.md` 里的账号级数据（粉丝数、帖子列表）**不要重抓**。
@@ -167,8 +167,8 @@ $GDL --cookies-from-browser chrome -d <目标目录> --write-metadata "https://w
 ## 收工检查
 
 ```bash
-find ~/Documents/hermes_vault_clean/Assets/Seth-社媒档案 -type f | sort
-du -sh ~/Documents/hermes_vault_clean/Assets/Seth-社媒档案
+find $VAULT_PATH/Assets/Seth-社媒档案 -type f | sort
+du -sh $VAULT_PATH/Assets/Seth-社媒档案
 ```
 
 - [ ] 每个目标：成功几张 / 失败几张，**逐个写清**（别笼统说"抓到了"）

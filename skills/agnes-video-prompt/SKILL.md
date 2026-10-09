@@ -65,7 +65,7 @@ prompt 里用 **`<Picture 1>` 指代**（不是 `@图片1`，那是网页端的�
 
 ```bash
 P=~/.workbuddy/binaries/python/envs/default/bin/python
-S=~/Documents/hermes_vault_clean/004-Tools/agnes.py
+S=$VAULT_PATH/004-Tools/agnes.py
 
 $P $S --ref 参考图.jpg --prompt "…" --seconds 8 --aspect 16:9 --out 出片.mp4
 ```
@@ -301,7 +301,7 @@ python3 run_agnes_recipe.py \
   --ref /path/to/ref.png \
   --ratio 16:9 \
   --duration 5 \
-  --outdir ~/Documents/hermes_vault_clean/Assets/<IP>/agnes-YYYYMMDD
+  --outdir $VAULT_PATH/Assets/<IP>/agnes-YYYYMMDD
 ```
 
 > 这脚本目前只支持**单张参考图** + **Agnes Video 2.5 Flash**。复杂情况（多图/首尾帧/音频）仍走 §三的手动步骤。

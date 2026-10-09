@@ -111,7 +111,7 @@ opencli twitter article "<tweet-url>" -f json     # 字段: author / title / con
 ## 5. 落盘与出看板
 
 ```bash
-python3 ~/Documents/hermes_vault_clean/003-Workbench/_build/build_xbookmarks.py
+python3 $VAULT_PATH/003-Workbench/_build/build_xbookmarks.py
 ```
 
 读 `data/xbookmarks-*.json` → 生成三样东西：

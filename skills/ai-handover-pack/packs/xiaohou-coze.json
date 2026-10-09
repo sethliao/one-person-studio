@@ -11,27 +11,27 @@
       "split": false
     },
     {
-      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/角色档案.md",
+      "src": "$VAULT_PATH/Wiki/小厚先生/角色档案.md",
       "as": "01-知识库/01-角色圣经.md"
     },
     {
-      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/角色一致性描述.md",
+      "src": "$VAULT_PATH/Wiki/小厚先生/角色一致性描述.md",
       "as": "01-知识库/02-角色一致性描述.md"
     },
     {
-      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/内容策略.md",
+      "src": "$VAULT_PATH/Wiki/小厚先生/内容策略.md",
       "as": "01-知识库/03-内容策略.md"
     },
     {
-      "src": "~/Documents/hermes_vault_clean/Wiki/小厚先生/IP运营.md",
+      "src": "$VAULT_PATH/Wiki/小厚先生/IP运营.md",
       "as": "01-知识库/04-IP运营矩阵.md"
     },
     {
-      "src": "~/Documents/hermes_vault_clean/001-Projects/小厚先生/小厚先生.md",
+      "src": "$VAULT_PATH/001-Projects/小厚先生/小厚先生.md",
       "as": "01-知识库/05-项目现状.md"
     },
     {
-      "src": "~/Documents/hermes_vault_clean/001-Projects/小厚先生/GFlow-Workflow.md",
+      "src": "$VAULT_PATH/001-Projects/小厚先生/GFlow-Workflow.md",
       "as": "01-知识库/06-生成管线约定.md"
     },
     {

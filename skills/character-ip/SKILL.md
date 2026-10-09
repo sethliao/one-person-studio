@@ -11,7 +11,7 @@ category: creative
 
 Manage a **character IP project** (小厚先生 / 熊猫莫莫 / Paikea) that involves AI-generated images/videos and this Obsidian vault. Covers reference management, character-profile updates, the plan→interview→confirm→execute loop, and generation consistency across styles/scenes.
 
-> 迁移说明：由 Hermes `character-ip` 改写适配（2026-09-05）。旧 vault 路径 `080-Agent/…` 已更新为当前 `hermes_vault_clean` 结构；`vision_analyze` 等 Hermes 专属工具改为通用能力。
+> 迁移说明：由 Hermes `character-ip` 改写适配（2026-09-05）。旧 vault 路径 `080-Agent/…` 已更新为当前 `ob_vault_s` 结构（2026-10-05 改名）；`vision_analyze` 等 Hermes 专属工具改为通用能力。
 
 ## Core Workflow: Plan → Interview → Confirm → Execute
 

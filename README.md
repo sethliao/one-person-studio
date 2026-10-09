@@ -86,6 +86,25 @@ git clone https://github.com/sethliao/one-person-studio.git /tmp/ops-studio \
   && rm -rf /tmp/ops-studio
 ```
 
+## 🔧 配置你的知识库路径（`VAULT_PATH`）
+
+这些 skill 最初是为作者的 Obsidian 知识库写的。凡是**指向库内文件**的地方，一律用占位符 **`$VAULT_PATH`**，
+你需要把它指向自己的库：
+
+```bash
+# 方式一：设环境变量（推荐，脚本自动展开）
+export VAULT_PATH="$HOME/Documents/your-vault"
+
+# 方式二：装完后全局替换（不设环境变量时用这个）
+grep -rl '$VAULT_PATH' ~/.claude/skills/ | xargs sed -i '' "s|\$VAULT_PATH|$HOME/Documents/your-vault|g"
+```
+
+**哪些 skill 会用到**：`agnes-video-prompt` · `x-bookmarks-mining` · `design-codex` · `behance-case-deck` ·
+`ep-qa` · `drama-claw-hermes` · `social-media-archive` · `new-tool-triage` · `ai-handover-pack` ·
+`content-research-board` · `agent-skills-bridge`。
+
+没配也能用 —— 不依赖库的 skill（如纯脚本、方法论类）不受影响；依赖库的会在找不到时跳过或提示。
+
 ## 能力一览
 
 | 工位 | 主要入口 | 干什么 |

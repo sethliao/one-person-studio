@@ -57,4 +57,4 @@ created: YYYY-MM-DD
 - `references/redact.py` — last-line secret filter before writing to disk.
 
 ## Install note
-This vault path is resolved at runtime from project memory (`hermes_vault_clean`); no hardcoded OBSIDIAN_VAULT_PATH needed.
+This vault path is resolved at runtime from project memory (`ob_vault_s`); no hardcoded OBSIDIAN_VAULT_PATH needed.

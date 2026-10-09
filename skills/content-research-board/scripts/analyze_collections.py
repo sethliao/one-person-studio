@@ -30,7 +30,7 @@ def _find_coll():
 
 def _find_vault_data():
     cands = [
-        "~/Documents/hermes_vault_clean/003-Workbench/data",
+        "$VAULT_PATH/003-Workbench/data",
         os.path.join(HERE, "..", "data"),
         os.path.join(HERE, "..", "..", "003-Workbench", "data"),
     ]

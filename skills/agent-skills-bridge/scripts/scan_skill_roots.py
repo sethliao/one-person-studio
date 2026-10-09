@@ -15,7 +15,7 @@ import glob
 import re
 
 HOME = os.path.expanduser("~")
-WS = os.path.join(HOME, "Documents/hermes_vault_clean")
+WS = os.path.join(HOME, "Documents/ob_vault_s")
 
 FAIL = 0
 
