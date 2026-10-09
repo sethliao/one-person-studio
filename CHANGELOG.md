@@ -3,6 +3,15 @@
 > 本项目版本遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)：`MAJOR.MINOR.PATCH`。
 > 发版时 `VERSION` / `CHANGELOG.md` / GitHub Release **三对齐**（规范见 skill `repo-conventions`）。
 
+## [0.7.2] - 2026-10-09
+
+### Added
+
+- **自动发版**：新增 `.github/workflows/release.yml` —— 以后**推 `v*` tag 就自动建 Release**，
+  说明文字优先取 `CHANGELOG.md` 的对应版本段（取不到则退回 GitHub 自动生成）。
+- 发版流程就此收敛成三步：改 `VERSION` → 补 `CHANGELOG.md` → `git tag vX.Y.Z && git push --tags`。
+  （Release 页面不再需要手动点 —— 推 tag 前 GitHub 不会自动建条目，这是加这条 workflow 的原因。）
+
 ## [0.7.1] - 2026-10-09
 
 ### Fixed
